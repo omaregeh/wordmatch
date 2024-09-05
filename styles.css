@@ -44,26 +44,3 @@ body {
     background-color: #28a745;
     visibility: hidden; /* Hides the matched item */
 }
-
-.timer-container {
-    font-size: 1.5em;
-    margin: 10px 0;
-}
-
-.time-controls {
-    margin-bottom: 20px;
-}
-
-button {
-    margin: 5px;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
