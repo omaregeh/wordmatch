@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French-English Word Matching Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>French-English Word Matching Game</h1>
+        <div class="grid-container">
+            <!-- French words will be placed here -->
+            <div id="french-words" class="column">
+                <!-- Words will be injected by JavaScript -->
+            </div>
+
+            <!-- English words will be placed here -->
+            <div id="english-words" class="column">
+                <!-- Words will be injected by JavaScript -->
+            </div>
+        </div>
+
+        <div class="timer-container">
+            Time left: <span id="timer">60</span> seconds
+        </div>
+        <div class="time-controls">
+            <button onclick="addTime(10)">+10 seconds</button>
+            <button onclick="addTime(20)">+20 seconds</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
